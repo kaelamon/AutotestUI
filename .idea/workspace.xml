@@ -4,14 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb712e69-bb2a-4b7c-a384-3ef26d831725" name="Changes" comment="s">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/PerfomanceLabSite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/SearchSite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestClassWithPageObjects.java" afterDir="false" />
+    <list default="true" id="eb712e69-bb2a-4b7c-a384-3ef26d831725" name="Changes" comment="фиксик">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutotestUI/src/main/java/api/connection/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutotestUI/src/main/java/api/integrationSubsystems/perfomance/PerfomanceApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutotestUI/src/main/java/api/integrationSubsystems/perfomance/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutotestUI/src/test/java/test/RestHttpClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutotestUI/src/test/java/test/RestTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutotestUI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AutotestUI/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutotestUI/src/main/java/pageobjects/PerfomanceLabSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AutotestUI/src/main/java/pageobjects/PerfomanceLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutotestUI/src/main/java/pageobjects/SearchSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AutotestUI/src/main/java/pageobjects/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutotestUI/src/test/java/test/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AutotestUI/src/test/java/test/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutotestUI/src/test/java/test/TestClassWithPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AutotestUI/src/test/java/test/TestClassWithPageObjects.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +42,15 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_COMMON_BRANCH" value="main" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../AutotestUI" />
     <option name="ROOT_SYNC" value="SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,18 +68,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_directory_selection": "E:/git/AutomatedTests/src/test/java",
-    "last_opened_file_path": "E:/git/AutomatedTests/src/main/pageobjects",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
+    &quot;last_directory_selection&quot;: &quot;E:/git/AutomatedTests/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/git/AutotestUI&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\git\AutomatedTests\src\main\pageobjects" />
@@ -76,60 +97,9 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestClass.ScrollAndOpenForm">
-    <configuration name="Example.GoogleSearchForPerfomanceLab (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutomatedTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Example" />
-      <option name="METHOD_NAME" value="GoogleSearchForPerfomanceLab" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example.GoogleSearchForPerfomanceLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutomatedTests" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.Example" />
-      <option name="METHOD_NAME" value="GoogleSearchForPerfomanceLab" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example.ServicesButtonIsBlue (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutomatedTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Example" />
-      <option name="METHOD_NAME" value="ServicesButtonIsBlue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example.ServicesButtonIsBlue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutomatedTests" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.Example" />
-      <option name="METHOD_NAME" value="ServicesButtonIsBlue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example.ServicesButtonIsBlue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutomatedTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Example" />
-      <option name="METHOD_NAME" value="ServicesButtonIsBlue" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea -Dfile.encoding=UTF-8" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestClassWithPageObjects.ScrollAndOpenForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutomatedTests" />
+  <component name="RunManager" selected="Maven.AutotestUI [clean,test]">
+    <configuration name="RestHttpClientTest.apacheClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutotestUI" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -137,95 +107,73 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.TestClassWithPageObjects" />
-      <option name="METHOD_NAME" value="ScrollAndOpenForm" />
+      <option name="MAIN_CLASS_NAME" value="test.RestHttpClientTest" />
+      <option name="METHOD_NAME" value="apacheClientTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClassWithPageObjects.ServicesButtonIsBlue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutomatedTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.TestClassWithPageObjects" />
-      <option name="METHOD_NAME" value="ServicesButtonIsBlue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="AutotestUI [clean,install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../AutotestUI" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
-    <configuration name="TestClass.GoogleSearchForPerfomanceLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutomatedTests" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TestClass" />
-      <option name="METHOD_NAME" value="GoogleSearchForPerfomanceLab" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestClass.GoogleSearchForPerfomanceLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutomatedTests" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="test.TestClass" />
-      <option name="METHOD_NAME" value="GoogleSearchForPerfomanceLab" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea -Dfile.encoding=UTF-8" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestClass.ScrollAndOpenForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutomatedTests" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="test.TestClass" />
-      <option name="METHOD_NAME" value="ScrollAndOpenForm" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestClass.ServicesButtonIsBlue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutomatedTests" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TestClass" />
-      <option name="METHOD_NAME" value="ServicesButtonIsBlue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestClass.ServicesButtonIsBlue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutomatedTests" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="test.TestClass" />
-      <option name="METHOD_NAME" value="ServicesButtonIsBlue" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea -Dfile.encoding=UTF-8" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="AutotestUI [clean,test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../AutotestUI" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestClass.GoogleSearchForPerfomanceLab" />
-      <item itemvalue="JUnit.TestClass.ScrollAndOpenForm" />
-      <item itemvalue="JUnit.TestClass.ServicesButtonIsBlue" />
-      <item itemvalue="JUnit.TestClassWithPageObjects.ScrollAndOpenForm" />
-      <item itemvalue="JUnit.TestClassWithPageObjects.ServicesButtonIsBlue" />
+      <item itemvalue="JUnit.RestHttpClientTest.apacheClientTest" />
+      <item itemvalue="Maven.AutotestUI [clean,install]" />
+      <item itemvalue="Maven.AutotestUI [clean,test]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestClass.ScrollAndOpenForm" />
-        <item itemvalue="JUnit.TestClassWithPageObjects.ScrollAndOpenForm" />
-        <item itemvalue="JUnit.TestClassWithPageObjects.ServicesButtonIsBlue" />
-        <item itemvalue="JUnit.TestClass.ServicesButtonIsBlue" />
-        <item itemvalue="JUnit.TestClass.GoogleSearchForPerfomanceLab" />
+        <item itemvalue="JUnit.RestHttpClientTest.apacheClientTest" />
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +186,28 @@
       <option name="presentableId" value="Default" />
       <updated>1652519099835</updated>
     </task>
+    <task id="LOCAL-00001" summary="Обновил под новое домашнее задание">
+      <created>1653124044961</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653124044961</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Обновил под новое домашнее задание&#10;+ ридми">
+      <created>1653125902409</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653125902409</updated>
+    </task>
+    <task id="LOCAL-00003" summary="фиксик">
+      <created>1653128039138</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653128039138</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,6 +220,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Обновил под новое домашнее задание" />
+    <MESSAGE value="Обновил под новое домашнее задание&#10;+ ридми" />
+    <MESSAGE value="фиксик" />
+    <option name="LAST_COMMIT_MESSAGE" value="фиксик" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
