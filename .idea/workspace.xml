@@ -4,23 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb712e69-bb2a-4b7c-a384-3ef26d831725" name="Changes" comment="фиксик">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AutotestUI/src/main/java/api/connection/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AutotestUI/src/main/java/api/integrationSubsystems/perfomance/PerfomanceApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AutotestUI/src/main/java/api/integrationSubsystems/perfomance/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AutotestUI/src/test/java/test/RestHttpClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AutotestUI/src/test/java/test/RestTests.java" afterDir="false" />
+    <list default="true" id="eb712e69-bb2a-4b7c-a384-3ef26d831725" name="Changes" comment="Рест запрос&#10;прикрутил allure&#10;запуск кейсов из мавена">
+      <change afterPath="$PROJECT_DIR$/../AutotestUI/src/main/java/api/integrationSubsystems/perfomance/models/Cars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutotestUI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AutotestUI/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutotestUI/src/main/java/pageobjects/PerfomanceLabSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AutotestUI/src/main/java/pageobjects/PerfomanceLab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutotestUI/src/main/java/pageobjects/SearchSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AutotestUI/src/main/java/pageobjects/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutotestUI/src/main/java/api/integrationSubsystems/perfomance/PerfomanceApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AutotestUI/src/main/java/api/integrationSubsystems/perfomance/PerfomanceApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutotestUI/src/main/java/pageobjects/PerfomanceLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AutotestUI/src/main/java/pageobjects/PerfomanceLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutotestUI/src/test/java/test/RestTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AutotestUI/src/test/java/test/RestTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AutotestUI/src/test/java/test/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AutotestUI/src/test/java/test/TestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AutotestUI/src/test/java/test/TestClassWithPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AutotestUI/src/test/java/test/TestClassWithPageObjects.java" afterDir="false" />
     </list>
@@ -50,7 +39,6 @@
     <option name="RECENT_COMMON_BRANCH" value="main" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../AutotestUI" />
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -97,7 +85,7 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.AutotestUI [clean,test]">
+  <component name="RunManager" selected="JUnit.TestClassWithPageObjects.GoogleSearchForPerfomanceLab">
     <configuration name="RestHttpClientTest.apacheClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutotestUI" />
       <extension name="coverage">
@@ -109,6 +97,53 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.RestHttpClientTest" />
       <option name="METHOD_NAME" value="apacheClientTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutotestUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RestTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestTests.getCarsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutotestUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RestTests" />
+      <option name="METHOD_NAME" value="getCarsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClassWithPageObjects.GoogleSearchForPerfomanceLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutotestUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestClassWithPageObjects" />
+      <option name="METHOD_NAME" value="GoogleSearchForPerfomanceLab" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,12 +202,18 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.RestTests" />
+      <item itemvalue="JUnit.RestTests.getCarsTest" />
+      <item itemvalue="JUnit.TestClassWithPageObjects.GoogleSearchForPerfomanceLab" />
       <item itemvalue="JUnit.RestHttpClientTest.apacheClientTest" />
       <item itemvalue="Maven.AutotestUI [clean,install]" />
       <item itemvalue="Maven.AutotestUI [clean,test]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestClassWithPageObjects.GoogleSearchForPerfomanceLab" />
+        <item itemvalue="JUnit.RestTests.getCarsTest" />
+        <item itemvalue="JUnit.RestTests" />
         <item itemvalue="JUnit.RestHttpClientTest.apacheClientTest" />
       </list>
     </recent_temporary>
@@ -207,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653128039138</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Рест запрос&#10;прикрутил allure&#10;запуск кейсов из мавена">
+      <created>1653747449985</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653747449985</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,7 +273,8 @@
     <MESSAGE value="Обновил под новое домашнее задание" />
     <MESSAGE value="Обновил под новое домашнее задание&#10;+ ридми" />
     <MESSAGE value="фиксик" />
-    <option name="LAST_COMMIT_MESSAGE" value="фиксик" />
+    <MESSAGE value="Рест запрос&#10;прикрутил allure&#10;запуск кейсов из мавена" />
+    <option name="LAST_COMMIT_MESSAGE" value="Рест запрос&#10;прикрутил allure&#10;запуск кейсов из мавена" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
